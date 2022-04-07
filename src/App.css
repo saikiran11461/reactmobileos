@@ -1,5 +1,44 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* border: 2px solid red; */
+  
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  background-color: #282c34;
+  width: 80%;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+  
+
+}
+h2{
+  margin-top: 15px;
+}
+ul{
+ 
+ padding-top: 18px;
+ display: flex;
+ list-style: none;
+ color: gray;
+ justify-content: space-between;
+}
+li{
+  padding: 5px 20px;
+}
+button{
+  margin: 10px;
+  padding: 5px 45px;
+  border-radius: 30px;
+  color: white;
+  background-color:#0485a7;
+  font-size: 15px;
+  border: none;
 }
 
 .App-logo {

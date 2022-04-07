@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-const Os = ["Services" ,"Projects", "About"];
+const Os = ["Services" ,"Projects", "About", "jani", "sai kiran"];
 function App() {
   return (
     <div className="App">
